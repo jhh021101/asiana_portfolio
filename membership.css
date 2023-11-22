@@ -44,10 +44,6 @@ p {
     margin: 5px 0;
 }
 
-article {
-    margin-top: 200px;
-}
-
 button {
     cursor: pointer;
     border-radius: 5px;
@@ -172,6 +168,13 @@ article a:focus {
 
 /* login 로그인 */
 
+.login h1 {
+    width: 100%;
+    border: 0px;
+    margin: 0 auto;
+    padding: 120px 0px 0px 0px;
+}
+
 .login .login_box .login_wrap ul{
     display: flex;
     margin-bottom: 30px;
@@ -224,6 +227,13 @@ article a:focus {
 }
 
 /* join-us 회원가입 */
+
+.join-us h1 {
+    width: 100%;
+    border: 0px;
+    margin: 0 auto;
+    padding: 120px 0px 0px 0px;
+}
 
 .join-us .content-box {
     position: relative;
@@ -332,6 +342,13 @@ article a:focus {
 
 .remov-acc {
     text-align: center;
+}
+
+.remov-acc h1 {
+    width: 100%;
+    border: 0px;
+    margin: 0 auto;
+    padding: 120px 0px 0px 0px;
 }
 
 .remov-acc>:nth-child(2) img {
