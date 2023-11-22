@@ -390,6 +390,13 @@ button {
   color: brown;
 }
 
+.ticket_reserve2> .reserve_box2{
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #242424;
+}
+
 .reserve_box2> :nth-child(2) {
   display: flex;
   margin-top: 20px;
@@ -429,7 +436,6 @@ button {
   display: flex;
   margin-top: 20px;
   padding: 10px 0px;
-  border-bottom: 1px solid #242424;
 }
 
 .ticket_reserve2 .reserve_box2> div h5 {
