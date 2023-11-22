@@ -204,7 +204,9 @@ section {
 }
 
 .bd-text h1 {
-  margin: 0 auto;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 30px 0px;
 }
 
 /* bd-write 글 작성하기 */
@@ -351,7 +353,7 @@ section {
 }
 
 .see-main>div:nth-child(2)>section :nth-child(3) button {
-    width: 30%;
+    width: 48%;
     margin: 0px 10px;
 }
 
@@ -890,6 +892,13 @@ section {
   padding: 0;
   margin: 0 auto;
   margin-bottom: 0px;
+}
+
+.faq h1 {
+  width: 100%;
+  border: 0px;
+  margin: 0 auto;
+  padding: 120px 0px 0px 0px;
 }
 
 .faq>ul {
