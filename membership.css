@@ -226,6 +226,10 @@ article a:focus {
     width: 100%;
 }
 
+.login .login_content>:nth-child(4) button {
+    cursor: auto;
+} 
+
 /* join-us 회원가입 */
 
 .join-us h1 {
