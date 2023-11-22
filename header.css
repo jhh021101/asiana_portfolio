@@ -122,7 +122,6 @@ button {
 }
 
 /* start */
-
 header {
   position: relative;
   width: 100%;
@@ -243,11 +242,11 @@ nav {
 .hd_login {
   background-color: #4d4c4c;
   display: flex;
-  padding:16px 30px;
+  padding: 16px 30px;
   justify-content: space-around;
 }
 
-.hd_login a {
+.hd_login> a {
   width: 250px;
   padding:16px 30px;
   text-align: center;
@@ -260,8 +259,12 @@ nav {
 }
 
 .navlist {
-  margin: 16px 30px;
+  margin: 0px 30px;
   border-bottom: 1px solid #747474 ;
+}
+
+.gnb nav :nth-child(9) {
+  border: none;
 }
 
 .navlist> a {
@@ -278,15 +281,19 @@ nav {
   display: block;
   line-height: 3rem;
   font-size: 1.2rem;
-  padding: 10px 30px;
+  padding: 16px 30px;
   font-weight: bold;
   border-left: 5px solid transparent;
   color: #242424;
 }
 
+.menuhead:hover {
+  border-left: 5px solid #d60815;
+}
+
 .sub_p {
     background-color: #837c7c;
-    padding: 0px 30px;
+    padding: 20px 30px;
     color: white;
   }
   
