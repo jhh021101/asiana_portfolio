@@ -96,7 +96,6 @@ article button {
   border-radius: 4px;
   transition: 0.3s;
   outline: none;
-  cursor: pointer;
 }
 
 article button:hover {
@@ -275,6 +274,10 @@ section {
 
 .bd-write>div:nth-child(8)>button {
   width: 48%;
+}
+
+.contact-end>:nth-child(5) :nth-child(1) button {
+  cursor: pointer;
 }
 
 .contact-end .btn-eee {
