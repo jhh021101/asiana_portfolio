@@ -289,14 +289,6 @@ section {
   width: 48%;
 }
 
-.contact-end>:nth-child(5) :nth-child(1) button {
-  cursor: pointer;
-}
-
-.contact-end .btn-eee {
-  width: 45%;
-}
-
 /* bd-see 이벤트 */
 
 .see-title {
@@ -689,10 +681,16 @@ section {
 }
 
 .contact-end button {
-  width: 150px;
+  width: 160px;
   margin-right: 5px;
   margin-bottom: 5px;
 }
+
+.contact-end>:nth-child(5) :nth-child(1) button {
+  cursor: pointer;
+}
+
+/* qna-to BEST 질문 */
 
 .qna-to>div:nth-child(2) {
   font-size: 19px;
@@ -706,8 +704,6 @@ section {
   color: #e6002d;
   font-weight: 700;
 }
-
-/* qna-to BEST 질문 */
 
 .qna-to details[open] img {
   transform: rotate(180deg);
