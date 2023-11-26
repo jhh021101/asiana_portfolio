@@ -103,6 +103,14 @@ article button:hover {
   color: #fff;
 }
 
+input:focus {
+  outline: 1px solid black;
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
 .btn-eee {
   background: #eee;
   color: #333;
@@ -237,11 +245,12 @@ section {
   opacity: 0.5;
 }
 
-.bd-write>div:nth-child(2) {
+.bd-write> :nth-child(2) {
     background-color: #eee;
     display: flex;
     margin-bottom: 20px;
     padding: 16px 5px;
+    border-radius: 5px;
 }
 
 .bd-write>div:nth-child(2) p {
@@ -249,8 +258,12 @@ section {
     font-size: 1rem;
 }
 
+.bd-write> :nth-child(2) input{
+  margin-right: 6px;
+}
+
 .bd-write>div:nth-child(2) :nth-child(3) {
-    margin-left: 5px;
+    margin-left: 16px;
 }
 
 .bd-write>div:nth-child(3) {
